@@ -3,7 +3,7 @@
     "username": "postgres",
     "password": "admin",
     "database": "challenge-3",
-    "host": "ec2-44-196-223-128.compute-1.amazonaws.com",
+    "host": "localhost",
     "dialect": "postgres"
   },
   "test": {
