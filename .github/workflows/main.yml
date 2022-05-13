@@ -17,8 +17,6 @@ jobs:
           node-version: '14.x'
       - name: Install dependencies
         run: npm install
-      - name: Set NODE_ENV to production
-        run: heroku config:set NODE_ENV=production
       - name: Install Sequelize-Cli
         run: npm install sequelize-cli
       - name: Run Sequelize-Cli Migrate
