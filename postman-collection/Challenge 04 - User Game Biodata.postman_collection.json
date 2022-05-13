@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "35c0fe16-274c-4308-842c-e353929bc09f",
+		"name": "Challenge 04 - User Game Biodata",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All User Game Biodata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/get-user-game-biodatas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"get-user-game-biodatas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get One User Game Biodata ID User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/get-user-game-biodata/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"get-user-game-biodata",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Game Biodata",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama\": \"Muhammad Fatur Hakim\",\r\n    \"tanggal_lahir\": \"1999-09-20\",\r\n    \"tempat_lahir\": \"Bandung\",\r\n    \"alamat\": \"Jalan Soreang No 09\",\r\n    \"no_hp\": 6281947524784,\r\n    \"id_user\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/create-user-game-biodata",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"create-user-game-biodata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User Game Biodata",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"alamat\": \"Jalan Soreang No 10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/update-user-game-biodata/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"update-user-game-biodata",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User Game Biodata",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/delete-user-game-biodata/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"delete-user-game-biodata",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

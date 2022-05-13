@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "9c79aaa8-2c51-4271-864c-ebad0305c1e9",
+		"name": "Challenge 04 - User Game History",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All User Game History",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/get-user-game-histories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"get-user-game-histories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All User Game History By ID User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/get-user-game-history/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"get-user-game-history",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Game History",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_user\": 1,\r\n    \"skor\": 89,\r\n    \"tanggal_bermain\": \"2022-04-06\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/create-user-game-history",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"create-user-game-history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User Game History By History ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/delete-user-game-history-id/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"delete-user-game-history-id",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete All User Game History By ID User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/delete-user-game-history-usergameid/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"delete-user-game-history-usergameid",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
