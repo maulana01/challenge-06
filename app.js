@@ -4,6 +4,7 @@ const express = require('express');
 const app = express();
 const swaggerJSON = require('./swagger.json');
 const swaggerUI = require('swagger-ui-express');
+// const { UserGame } = require('./models');
 const passport = require('passport');
 const flash = require('express-flash');
 const session = require('express-session');
