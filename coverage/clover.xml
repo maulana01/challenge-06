@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652429610530" clover="3.2.0">
-  <project timestamp="1652429610530" name="All files">
-    <metrics statements="1300" coveredstatements="694" conditionals="43" coveredconditionals="33" methods="49" coveredmethods="16" elements="1392" coveredelements="743" complexity="0" loc="1300" ncloc="1300" packages="5" files="17" classes="17"/>
+<coverage generated="1652443088923" clover="3.2.0">
+  <project timestamp="1652443088923" name="All files">
+    <metrics statements="1299" coveredstatements="693" conditionals="43" coveredconditionals="33" methods="49" coveredmethods="16" elements="1391" coveredelements="742" complexity="0" loc="1299" ncloc="1299" packages="5" files="17" classes="17"/>
     <package name="challenge-6">
-      <metrics statements="68" coveredstatements="48" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="67" coveredstatements="47" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="E:\Kuliah\Binar\SC\challenge-6\app.js">
-        <metrics statements="34" coveredstatements="34" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="33" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -39,7 +39,6 @@
         <line num="31" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
       </file>
       <file name="passport-config.js" path="E:\Kuliah\Binar\SC\challenge-6\passport-config.js">
         <metrics statements="34" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>

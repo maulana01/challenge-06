@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:usergamesApi && npm run test:usergamesBiodataApi && npm run test:usergamesHistoryApi",
+    "test": "npm run test:authController && npm run test:usergamesApi && npm run test:usergamesBiodataApi && npm run test:usergamesHistoryApi",
+    "test:authController": "jest --detectOpenHandles -- authController.spec.js",
     "test:usergamesApi": "jest --detectOpenHandles -- usergamesApiController.spec.js",
     "test:usergamesBiodataApi": "jest --detectOpenHandles -- usergamesBiodataApiController.spec.js",
     "test:usergamesHistoryApi": "jest --detectOpenHandles -- usergamesHistoryApiController.spec.js",
