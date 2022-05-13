@@ -20,7 +20,7 @@ jobs:
       - name: Install Sequelize-Cli
         run: npm install sequelize-cli
       - name: Run Sequelize-Cli Migrate
-        run: sequelize db:migrate
+        run: npx sequelize db:migrate
       - name: Run tests
         run: npm test
 
