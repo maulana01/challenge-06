@@ -38,7 +38,6 @@ describe('User Games API Controller Testing', () => {
   test('run /api/login To Do Login', async () => {
     const { body, statusCode } = await request(app).post('/api/login').send({ username: 'maulana', password: 'maulana' });
     expect(statusCode).toEqual(200);
-    // expect(body.message).toEqual('Berhasil Membuat User Game');
     expect(body.username).toEqual('maulana');
     expect(body.email).toEqual('maulana@mail.com');
     expect(body.password).toEqual(body.password);

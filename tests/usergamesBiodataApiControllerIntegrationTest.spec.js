@@ -84,7 +84,6 @@ describe('User Games Biodata API Controller Testing', () => {
       no_hp: '085144951042',
       id_user: 2,
     });
-    console.log(error);
     expect(statusCode).toEqual(200);
     expect(body.message).toEqual('Berhasil Membuat User Game Biodata');
     expect(body.result.nama).toEqual('Putra Arifin');
